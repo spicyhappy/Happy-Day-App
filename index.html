@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description" content="Happy Day is a web app that lets you look at weather and local news at a glance. Responsive so you can see it from any device. Enjoy!">
+	<meta author="author" content="Xin Xin">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	 <meta name="apple-touch-fullscreen" content="yes" />
+	<title>Happy Day</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css">
+	<link rel="apple-touch-icon-precomposed" href="img/apple-icon.png" />
+	<link rel="apple-touch-startup-image" href="img/apple-startup.png" />
+	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+	<div class="alert hide">Loading</div>
+	<header>
+		<form>
+            <input id="locationSearch" placeholder="City + State or Zip"><input type="submit" value="Search">
+        </form>
+        <div class="shortcuts hide">
+        	<ul id="historyList">
+        		<li>Boston, MA</li>
+        		<li>New York, NY</li>
+        		<li>Los Angeles, CA</li>
+        		<li>Chicago, IL</li>
+        		<li>Houston, TX</li>
+        	</ul>
+        	<a class="close">Close</a>
+        </div>
+	</header>
+	<section class="weather">
+		<div id="weatherCurrent">
+		</div>
+		<ol id="weatherFuture">
+			<li class="day1"></li>
+			<li class="day2"></li>
+			<li class="day3"></li>
+			<li class="day4"></li>
+			<li class="day5"></li>
+			<li class="day6"></li>
+			<li class="day7"></li>
+		</ol>
+		</div>
+	</section>
+
+	<section class="news">
+		<article id="article1"></article>
+		<article id="article2"></article>
+		<article id="article3"></article>
+		<article id="article4"></article>
+		<article id="article5"></article>
+		<article id="article6"></article>
+		<article id="article7"></article>
+		<article id="article8"></article>
+		<article id="article9"></article>
+		<article id="article10"></article>
+		<article id="article11"></article>
+		<article id="article12"></article>
+		<article id="article13"></article>
+		<article id="article14"></article>
+	</section>
+
+	<footer><a href="http://xin-squared.com">Made by Xin Xin</a>. <a href="https://github.com/spicyhappy/Happy-Day-App">View code</a></footer>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
